@@ -1,0 +1,10 @@
+# Full-text embedding and the original BERTopic components.
+-r requirements-pipeline.txt
+bertopic==0.17.3
+scipy
+scikit-learn>=1.7
+joblib
+pyarrow
+jieba
+onnx==1.17.0
+requests

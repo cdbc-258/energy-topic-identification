@@ -1,0 +1,8 @@
+# Final classification and export; frozen inputs and GPU setup are required.
+-r requirements.txt
+numpy
+pandas
+pyarrow
+threadpoolctl
+tokenizers
+onnxruntime-gpu
